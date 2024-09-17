@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface PrimeSieve {
+public interface PrimeSieve {
+    public boolean isPrime(int p);
+
+    public void printPrimes();
 }
