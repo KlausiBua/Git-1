@@ -28,6 +28,7 @@ public class EratosthenesPrimeSieve implements PrimeSieve{
 
     @Override
     public void printPrimes() {
+        System.out.println("Prime numbers up to "+upperlimit+":");
         for(int i = 0; i < upperlimit; i++) {
             if(isPrime(i)) {
                 System.out.print(i+" | ");
